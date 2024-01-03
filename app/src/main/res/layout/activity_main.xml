@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Button"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <ToggleButton
+        android:id="@+id/tbtnFondo"
+        android:layout_width="152dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="108dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="Claro"
+        android:textOn="Oscuro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tbtnActivar"
+        android:layout_width="113dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="324dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="Desactivar"
+        android:textOn="Activar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtTexto"
+        android:layout_width="211dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="324dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Prueba"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblCancion"
+        android:layout_width="219dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="212dp"
+        android:text="My Chemical Romance - Welcome To The Black Parade"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tbtnFavorito"
+        android:layout_width="85dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="212dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="★"
+        android:textOn="☆"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
